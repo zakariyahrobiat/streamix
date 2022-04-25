@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    gap: 5em;
+    background-color: black;
+    color: white;
+    padding:20px  50px;
+      text-align: center;
+    font-size: 1.5em;
+      
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin:20vh 2vh ;
+    background-image:linear-gradient( to left, rgb(15, 0, 15), rgb(1, 1, 27), black );
+    position: relative;
+}
+.body{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    height: 35vh;
+    width: 90%;
+}
+.body .home-section , .body .account-section{
+    width: 20%;
+}
+.body .streaming-section{
+    width: 60%;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 4.5em;
+    margin-bottom: -8px;
+}
+.home-section{
+    background: rgb(22, 22, 22);
+    padding: 2em 1em;
+    font-size: 0.5em;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home-section h2{
+    color: white;
+    padding-bottom: 30px;
+    
+}
+.home-section ul{
+    list-style: none;
+    padding-bottom: 100px;
+    line-height: 2.0;
+}
+.home-section a{
+    text-decoration: none;
+    color: rgb(121, 120, 120);
+
+}
+.streaming-section{
+    background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(1, 1, 17));
+    padding: 1em ;
+    
+}
+.streaming-section input{
+    background: rgb(22, 22, 22);
+    border: none;
+    width: 50px;
+    height: 15px;
+    border-radius: 5px;
+    font-size: 5px;
+    padding: 5px;
+
+}
+.streaming-section i{
+    color: rgb(131, 130, 130);
+    
+}
+.streaming-section .top-section{
+    display: flex;
+    gap: 10px;
+}
+.top-section button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 5px;
+    padding: 5px;
+}
+.first-container img{
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+.first-container .text-container{
+    display: flex;
+    color: white;
+    gap: 10px;
+    background-color: black;
+    padding:5px;
+    position: absolute;
+    top: 7em;
+    border-radius: 3px;
+    
+    
+}
+
+.text-container .first-text p{
+    font-size: 3.7px;
+}
+.text-container .first-text h2{
+    font-size: 7px;
+}
+.text-container .create-section p{
+    background-color: transparent;
+    color: blue;
+    border:2px solid blue;
+    border-radius: 5px;
+    font-size: 4px;
+    padding: 2px;
+    
+}
