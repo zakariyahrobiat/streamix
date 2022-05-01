@@ -309,7 +309,7 @@ nav i{
     }
     
     .text-container .first-text p{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     .text-container .first-text h2{
         font-size: 1em;
@@ -322,6 +322,7 @@ nav i{
         border-radius: 5px;
         font-size: 1em;
         padding: 5px;
+        margin-left: 4.2em;
         
     }
     .section{
@@ -350,6 +351,9 @@ nav i{
     }
     .text-section h2{
         font-size: 1em;
+    }
+    .text-section p{
+        font-size: 0.5em;
     }
     .account-section{
         background: rgb(22, 22, 22);
