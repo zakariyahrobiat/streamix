@@ -241,7 +241,7 @@ nav i{
 }
 .friend-container{
     display: flex;
-    gap: 5px;
+    gap: 2px;
     padding-bottom: 5px;
 }
 .steamer{
