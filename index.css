@@ -44,17 +44,17 @@ nav i{
     width: 60%;
 }
 .circle{
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     background-color: yellow;
     border-radius: 50%;
-    margin-left: 4.5em;
+    margin-left: 3.5em;
     /* margin-bottom: -5px; */
 }
 .home-section{
     background: rgb(22, 22, 22);
-    padding: 2em 1em;
-    font-size: 0.5em;
+    padding: 3em 2em ;
+    font-size: 0.3em;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -81,15 +81,18 @@ nav i{
 .streaming-section input{
     background: rgb(22, 22, 22);
     border: none;
-    width: 40px;
+    width: 60px;
     height: 15px;
     border-radius: 5px;
-    font-size: 5px;
+    font-size: 0.3em;
     padding: 5px;
+    margin-right: 1em;
 
 }
+
 .streaming-section i{
     color: rgb(131, 130, 130);
+    font-size: 0.3em;
     
 }
 .streaming-section .top-section{
@@ -101,7 +104,7 @@ nav i{
     color: white;
     border: none;
     border-radius: 3px;
-    font-size: 5px;
+    font-size: 0.3em;
     padding: 5px;
 }
 .first-container img{
@@ -134,7 +137,7 @@ nav i{
 .text-container .create-section{
     padding: 5px;
 }
-.text-container .create-section p{
+.text-container .create-section button{
     background-color: transparent;
     color: blue;
     border:2px solid blue;
@@ -143,20 +146,291 @@ nav i{
     padding: 2px;
     
 }
+.section{
+    display: flex;
+    gap: 65%;
+    color: white;
+    font-size: 0.3em;
+}
+.streaming-section .img-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.img-container img{
+    width: 100%;
+}
+.suggestion-container .text-section{
+    background: black;
+    color: white;
+    line-height: 2.0;
+    padding-left: 5px;
+    margin-top: -0.4em;
+}
+.text-section h2{
+    font-size: 0.3em;
+}
+.text-section p{
+    font-size: 0.3em;
+}
 .account-section{
     background: rgb(22, 22, 22);
-    padding: 2em 1em;
-    font-size: 0.5em;
+    padding: 1em 0.5em;
+    
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
 .account{
     display: flex;
+    gap: 2em;
+   
+    font-size: 2px;
+    color: white;
+    position: relative;
 }
 .profile{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: yellow;
     
 }
+.account button{
+    width: 10px;
+    border: none;
+    font-size: 2px;
+    background-color: yellow;
+    color: black;
+    position: absolute;
+    left: 22em;
+}
+.name-section{
+    line-height: 2.0;
+}
+.live{
+    background: blue;
+    border-radius: 5px;
+    padding: 2px 13px;
+    font-size: 0.5em;
+    color: white;
+    border: none;
+    margin: 2em 0;
+}
+.game-section{
+    font-size: 4px;
+    color: white;
+}
+.game-image{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.game-image img{
+    width: 50%;
+    border-radius: 5px;
+}
+.profile-container{
+    display: flex;
+    gap: 5px;
+}
+.friend-container{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+.steamer{
+    color: white;
+    padding: 7px 0;
+    font-size: 5px;
+}
+.friend-container p{
+    color: white;
+    font-size: 2px;
+}
+.friend-container i{
+    padding-left: 5px;
+    color: white;
+    font-size: 2px;
+}
+
+@media screen and (min-width: 1116px) {
+    .container{
+        height: 150vh;
+    }
+    .body{
+        height: 100vh;
+    }
+    .home-section{
+        padding: 3em 5em;
+        font-size: 1em;
+    }
+    .home-section ul{
+        padding-bottom: 30vh;
+        
+    }
+    .home-section a{
+        
+        line-height: 2.5;
+    }
+    .streaming-section{
+       padding:  3em 2em;
+    }
+    .streaming-section input{
+        font-size: 1em;
+        width: 50%;
+        padding: 15px;
+        margin-right: 4em;
+    }
+    .streaming-section i{
+        font-size: 1em;
+        padding-top: 0.5em ;
+        padding-left: 1em;
+
+    }
+    .streaming-section button{
+        margin: 0 4em;
+        font-size: 0.5em;
+    }
+    .first-container img{
+        height: 20vh;
+    }
+    .first-container .text-container{
+        top: 10em;
+        left: 16.8em;
+        gap: 0;
+        padding: 5px 0.5em ;
+        
+    }
+    
+    .text-container .first-text p{
+        font-size: 0.7em;
+    }
+    .text-container .first-text h2{
+        font-size: 1em;
+    }
+
+    .text-container .create-section button{
+        background-color: transparent;
+        color: blue;
+        border:2px solid blue;
+        border-radius: 5px;
+        font-size: 1em;
+        padding: 5px;
+        
+    }
+    .section{
+        display: flex;
+        gap: 65%;
+        color: white;
+        font-size: 0.7em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .streaming-section .img-container{
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .img-container img{
+        width: 100%;
+    }
+    .suggestion-container .text-section{
+        background: black;
+        color: white;
+        line-height: 2.0;
+        padding-left: 1em;
+        margin-top: -0.4em;
+    }
+    .text-section h2{
+        font-size: 1em;
+    }
+    .account-section{
+        background: rgb(22, 22, 22);
+        padding: 3em 2em;
+        
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .account{
+        display: flex;
+        gap: 1.5em;
+       
+        font-size: 0.5em;
+        color: white;
+        position: relative;
+    }
+    .profile{
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+        background-color: yellow;
+        
+    }
+    .account button{
+        width: 20px; 
+        /* padding:2px; */
+        font-weight: 900;
+        border: none;
+        font-size: 1em;
+        background-color: yellow;
+        color: black;
+        position: absolute;
+        left: 20em;
+        top: 1em;
+        border-radius: 3px;
+    }
+    .name-section{
+        line-height: 2.0;
+    }
+    .live{
+        background: blue;
+        border-radius: 7px;
+        padding: 0.5em 3.88em;
+        font-size: 1em;
+        color: white;
+        border: none;
+        margin: 1em 0;
+    }
+    .game-section{
+        font-size: 0.7em;
+        color: white;
+    }
+    .game-image{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .game-image img{
+        width: 50%;
+        border-radius: 5px;
+    }
+    .profile-container{
+        display: flex;
+        gap: 5px;
+    }
+    .friend-container{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .steamer{
+        color: white;
+        padding: 5px 0;
+    }
+    .friend-container p{
+        color: white;
+        font-size: 0.7em;
+    }
+    .friend-container i{
+        padding-left: 2.6em;
+        color: white;
+    }
+    
+    
+}
+
+
