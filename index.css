@@ -24,7 +24,7 @@ nav i{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 45vh;
     margin:20vh 2vh ;
     background-image:linear-gradient( to left, rgb(15, 0, 15), rgb(1, 1, 27), black );
     position: relative;
