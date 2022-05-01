@@ -205,7 +205,8 @@ nav i{
     background-color: yellow;
     color: black;
     position: absolute;
-    left: 22em;
+    left: 20em;
+    border-radius: 2px;
 }
 .name-section{
     line-height: 2.0;
@@ -225,7 +226,7 @@ nav i{
 }
 .game-image{
     display: flex;
-    gap: 10px;
+    gap: 3px;
     width: 100%;
     padding-bottom: 3px;
 }
