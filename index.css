@@ -33,7 +33,7 @@ nav i{
     display: flex;
     justify-content: left;
     position: absolute;
-    height: 35vh;
+    height: 30vh;
     width: 90%;
 }
 .body .home-section , .body .account-section{
@@ -185,7 +185,7 @@ nav i{
 }
 .account{
     display: flex;
-    gap: 2em;
+    gap: 1em;
    
     font-size: 2px;
     color: white;
@@ -205,7 +205,7 @@ nav i{
     background-color: yellow;
     color: black;
     position: absolute;
-    left: 20em;
+    left: 18em;
     border-radius: 2px;
 }
 .name-section{
