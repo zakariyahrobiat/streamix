@@ -229,7 +229,7 @@ nav i{
     display: flex;
     gap: 3px;
     width: 100%;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
 }
 .game-image img{
     width: 45%;
