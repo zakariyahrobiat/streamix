@@ -172,7 +172,7 @@ nav i{
     font-size: 0.3em;
 }
 .text-section p{
-    font-size: 0.3em;
+    font-size: 4px;
 }
 .account-section{
     background: rgb(22, 22, 22);
@@ -211,7 +211,7 @@ nav i{
 .live{
     background: blue;
     border-radius: 5px;
-    padding: 2px 13px;
+    padding: 2px 10px;
     font-size: 0.5em;
     color: white;
     border: none;
@@ -229,7 +229,7 @@ nav i{
 }
 .game-image img{
     width: 50%;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .profile-container{
     display: flex;
@@ -237,13 +237,13 @@ nav i{
 }
 .friend-container{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     padding-bottom: 5px;
 }
 .steamer{
     color: white;
     padding: 7px 0;
-    font-size: 5px;
+    font-size: 4px;
 }
 .friend-container p{
     color: white;
