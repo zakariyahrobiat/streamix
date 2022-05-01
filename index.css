@@ -81,7 +81,7 @@ nav i{
 .streaming-section input{
     background: rgb(22, 22, 22);
     border: none;
-    width: 60px;
+    width: 55px;
     height: 15px;
     border-radius: 5px;
     font-size: 0.3em;
@@ -156,7 +156,7 @@ nav i{
     display: flex;
     gap: 10px;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .img-container img{
     width: 100%;
