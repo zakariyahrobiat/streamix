@@ -237,11 +237,11 @@ nav i{
 }
 .profile-container{
     display: flex;
-    gap: 5px;
+    gap: 2px;
 }
 .friend-container{
     display: flex;
-    gap: 2px;
+    gap: 5px;
     padding-bottom: 5px;
 }
 .steamer{
