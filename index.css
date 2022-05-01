@@ -130,7 +130,7 @@ nav i{
 }
 
 .text-container .first-text p{
-    font-size: 4px;
+    font-size: 3px;
 }
 .text-container .first-text h2{
     font-size: 7px;
@@ -145,7 +145,7 @@ nav i{
     border-radius: 5px;
     font-size: 3px;
     padding: 2px;
-    margin-top: -3px;
+    
     
 }
 .section{
@@ -313,7 +313,7 @@ nav i{
         font-size: 1em;
     }
 
-    .text-container .create-section button{
+    .text-container .create-section p{
         background-color: transparent;
         color: blue;
         border:2px solid blue;
